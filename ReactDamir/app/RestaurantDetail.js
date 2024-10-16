@@ -18,7 +18,6 @@ const RestaurantDetailScreen = ({ route }) => {
       <Text style={styles.name}>{restaurant.name}</Text>
       <Text style={styles.description}>{restaurant.description}</Text>
 
-      {/* Карта с маркером */}
       <MapView
         style={styles.map}
         initialRegion={restaurantLocation}

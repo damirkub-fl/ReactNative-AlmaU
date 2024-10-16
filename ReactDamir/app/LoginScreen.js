@@ -14,7 +14,6 @@ const LoginScreen = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.title}>Авторизация</Text>
       
-      {/* Поле ввода логина */}
       <TextInput
         style={styles.input}
         placeholder="Логин"
